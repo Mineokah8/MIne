@@ -82,24 +82,24 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
-    Amazon: {
+    "Slowgate Media": {
       jobTitle: "Software Development Engineer @",
-      duration: "JUL 2022 - PRESENT",
+      duration: "JUL 2024 - PRESENT",
       desc: [
-        "Led development of end-to-end region build automation across Route 53 (AWS's DNS web service).  This enabled the launch of customer-facing global services in new regions within a day, a significant reduction from the previous time-frame of a month.",
+        "As a key member of the development team, I contributed to the design and development of Alpha, a faith-based streaming platform. This platform aims to provide high-quality content for faith communities, including sermons, podcasts, and exclusive religious programming. My responsibilities included collaborating with cross-functional teams, building scalable features, ensuring optimal user experience, and troubleshooting to ensure the platform's seamless functionality across multiple devices.",
         "Re-built Route 53's core domain management and DNS systems to provide a better user experience to millions of customers."
       ]
     },
-    Wattpad: {
-      jobTitle: "Associate Engineer @",
-      duration: "MAY 2020 - APR 2021",
+    "Softcity": {
+      jobTitle: "Software Engineering intern @",
+      duration: "April 2024 - Sept 2024",
       desc: [
         "Developed a responsive React web page (the new Story Details) from scratch, both on client and server side, for an app with massive scale (2 billion daily requests).",
         "Iteratively built web experiences for 80 million users across high-traffic pages.",
         "Collaborated with senior engineers and product management following best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations."
       ]
     },
-    "University of Toronto": {
+    "Benson Idahosa University": {
       jobTitle: "Research Engineer @",
       duration: "MAY 2021 - SEPT 2021",
       desc: [
@@ -107,7 +107,7 @@ const JobList = () => {
         " Application selected for DCS Research Award ($4,000) as part of the ”Visualizing Privacy Analysis Results” project led by Professor Marsha Chechik."
       ]
     },
-    Centivizer: {
+    "Centivizer": {
       jobTitle: "Software Developer @",
       duration: "SEPT 2019 - APR 2020",
       desc: [

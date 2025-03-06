@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
-class ThreeJSAnimation extends Component {
+class MineModel extends Component {
   componentDidMount() {
     (function () {
       // Set our main variables
@@ -245,4 +245,4 @@ class ThreeJSAnimation extends Component {
     return <div ref={ref => (this.mount = ref)} />;
   }
 }
-export default ThreeJSAnimation;
+export default MineModel;

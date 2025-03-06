@@ -20,10 +20,10 @@ class About extends React.Component {
     const one = (
       <p>
         I am currently a <b>Software Development Engineer</b> at
-        <a href="https://www.aboutamazon.com/"> Amazon</a>, working in the AWS
-        sector under team Route 53. At the same time, I am undertaking a
-        part-time <b> Master's of Science</b> in <b>Software Engineering </b>at{" "}
-        <a href="https://www.ox.ac.uk/about">University of Oxford</a>.
+        <a href="https://slowgatemedia.com/"> Slowgate Media</a>, working in the Alpha team
+        sector under the software development team. At the same time, I am undertaking a
+        Full-time <b> Bachelor of Science</b> in <b>Computer Science </b>at{" "}
+        <a href="https://biu.edu.ng/">Benson Idahosa University</a>.
       </p>
     );
     const two = (
@@ -64,7 +64,7 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              <img alt="Gazi Jarin" src={"/assets/me2.jpg"} />
+              <img alt="Mine Okah" src={"/assets/me.jpg"} />
             </div>
           </div>
         </FadeInSection>
