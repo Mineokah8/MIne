@@ -38,7 +38,10 @@ class Intro extends React.Component {
           <div className="intro-desc">
             I'm a software engineer from Lagos ,Nigeria. I'm fascinated by
             large-scale, high-impact products and contributed to major feature launches in
-            industry-leading services as well as apps that would have 10k+ installs.
+            industry-leading services as well as apps that would have 10k+ installs. i am 
+            currently working on a social network for university students <a href="https://www.hive.com" target="_blank" rel="noopener noreferrer">
+        Hive
+      </a>
           </div>
           <a
             href="mailto:mineokah8@gmail.com"
