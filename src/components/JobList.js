@@ -101,10 +101,11 @@ const JobList = () => {
     },
     "Benson Idahosa University": {
       jobTitle: "Research Engineer @",
-      duration: "MAY 2021 - SEPT 2021",
+      duration: "November 2021 - JULY 2022",
       desc: [
-        "Developed and researched an NLP-based framework using state-of-the-art tools like Spacy and Stanza to facilitate the derivation of requirements from health data by leveraging syntactic dependencies, entity-recognition and rule-based match-making.",
-        " Application selected for DCS Research Award ($4,000) as part of the ”Visualizing Privacy Analysis Results” project led by Professor Marsha Chechik."
+        "Worked on a research project to develop a machine learning model for predicting student performance based on historical data, which involved data collection, preprocessing, and model training using Python and TensorFlow.",
+        "Collaborated with a team of researchers to analyze the results and present findings, contributing to the publication of a research paper in an academic journal.",
+        "Gained experience in data analysis, machine learning algorithms, and academic research methodologies." 
       ]
     },
     
