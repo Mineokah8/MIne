@@ -27,8 +27,8 @@ class Projects extends React.Component {
         desc:
           "A third-person survival-mode game where you battle against time and space to return to Earth.",
         techStack: "C# (UNITY)",
-        link: "https://github.com/slakh96/no-mans-land",
-        open: "https://gazijarin.itch.io/no-mans-land",
+        link: "",
+        open: "",
         image: "/assets/nomansland.png"
       },
       Truth: {
@@ -36,8 +36,8 @@ class Projects extends React.Component {
         desc:
           "A three.js simulation of the planet system revolving around a monolith.",
         techStack: "JAVASCRIPT (THREE.JS)",
-        link: "https://github.com/gazijarin/truth",
-        open: "https://gazijarin.github.io/Truth/",
+        link: "",
+        open: "",
         image: "/assets/truth.png"
       },
       "Tall Tales": {
@@ -54,8 +54,8 @@ class Projects extends React.Component {
         desc:
           "A small JS library that helps with clear and succinct data presentation.",
         techStack: "NODE.JS (EXPRESS.JS)",
-        link: "https://github.com/gazijarin/Portfolio.js",
-        open: "https://afternoon-ocean-92382.herokuapp.com/",
+        link: "",
+        open: "",
         image: "/assets/portfolio.png"
       }
     };
@@ -64,42 +64,42 @@ class Projects extends React.Component {
         desc:
           "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
         techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-        link: "https://github.com/gazijarin/TDSBHomeworkManagement",
-        open: "https://tdsb-app.herokuapp.com/"
+        link: "",
+        open: ""
       },
       "Adam A.I.": {
         desc:
           "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
         techStack: "Javascript, HTML / CSS",
-        link: "https://github.com/gazijarin/adamai",
-        open: "https://gazijarin.github.io/AdamAI/"
+        link: "",
+        open: ""
       },
       "Distributed Logging and Monitoring System": {
         desc:
           "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
         techStack: "Node.js (Express.js), React.js, PostgreSQL",
         link:
-          "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System"
+          ""
       },
       "Odin Bot": {
         desc:
           "A Telegram bot that helps you excel on your daily tasks through Node NLP.",
         techStack: "Javascript, Node.js, Natural NLP, Telegram API",
-        link: "https://github.com/gazijarin/OdinBot",
+        link: "",
         open: ""
       },
       "Game Centre": {
         desc:
           "An Android app consisting of three board games, including multiplayer, autosave, user authentication, etc.",
         techStack: "Java, Android Studio",
-        link: "https://github.com/gazijarin/gamecentre",
+        link: "",
         open: ""
       },
       "Minimax Stonehenge": {
         desc:
           "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
         techStack: "Python",
-        link: "https://github.com/gazijarin/stonehenge",
+        link: "",
         open: ""
       }
     };
