@@ -22,57 +22,57 @@ class Projects extends React.Component {
   }
   render() {
     const spotlightProjects = {
-      "No Man's Land": {
-        title: "no man's land",
+      "Alpha Tv": {
+        title: "Alpha. Tv",
         desc:
-          "A third-person survival-mode game where you battle against time and space to return to Earth.",
-        techStack: "C# (UNITY)",
-        link: "",
-        open: "",
-        image: "/assets/nomansland.png"
+          "A Christian Content Streaming Service, with a Next.js front-end and a .Net back-end. It features a recommendation system that uses collaborative filtering to suggest content to users based on their watch history.",
+        techStack: "Next.js, .Net, SQL",
+        link: "https://myalphatv.com/",
+        open: "https://myalphatv.com/",
+        image: "/assets/alpha.png"
       },
-      Truth: {
-        title: "truth",
+      "CS-DON": {
+        title: "CS-DON Website",
         desc:
-          "A three.js simulation of the planet system revolving around a monolith.",
-        techStack: "JAVASCRIPT (THREE.JS)",
-        link: "",
-        open: "",
-        image: "/assets/truth.png"
+          "A Next.js website for a Non-Govermental organization.",
+        techStack: "JAVASCRIPT (Next.js)",
+        link: "https://csdon.org/",
+        open: "https://csdon.org/",
+        image: "/assets/cdson.png"
       },
-      "Tall Tales": {
-        title: "tall tales",
+      "House Findr": {
+        title: "House Findr",
         desc:
-          "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
-        techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
-        link: "https://github.com/gazijarin/TallTales",
-        open: "https://talltales.herokuapp.com/",
-        image: "/assets/talltales.png"
+          "A real-time house listing mobile/web application that allows users to search for houses in Lagos based on their preferences and receive instant updates on new listings.",
+        techStack: "NODE.JS (SOCKET.IO), REACT.JS/ REACT Native, MONGODB",
+        link: "housefindr.vercel.app",
+        open: "housefindr.vercel.app",
+        image: "/assets/housefindr.png"
       },
-      Portfolio: {
-        title: "portfolio.js",
+      "Mandy's Eats Hub": {
+        title: "Mandy's Eats Hub",
         desc:
-          "A small JS library that helps with clear and succinct data presentation.",
+          "A food delivery application that allows users to order from their favorite  restaurant and have their meals delivered to their doorstep.",
         techStack: "NODE.JS (EXPRESS.JS)",
-        link: "",
-        open: "",
-        image: "/assets/portfolio.png"
+        link: "mandys-eats-hub.vercel.app",
+        open: "mandys-eats-hub.vercel.app",
+        image: "/assets/mandy.png"
       }
     };
     const projects = {
-      "TDSB Homework Management Interface": {
+      "Alpha Tv": {
         desc:
-          "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-        techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-        link: "",
-        open: ""
+          "A Christian Content Streaming Service, with a Next.js front-end and a .Net back-end. It features a recommendation system that uses collaborative filtering to suggest content to users based on their watch history.",
+        techStack: "Next.js, .Net,  SQL",
+        link: "https://myalphatv.com/",
+        open: "https://myalphatv.com/"
       },
-      "Adam A.I.": {
+      "Cleon Time": {
         desc:
-          "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
-        techStack: "Javascript, HTML / CSS",
-        link: "",
-        open: ""
+          "CleonTime is a specialized, web-based claims processing portal developed by Whyte Cleon Limited as part of their comprehensive CleonHR suite.",
+        techStack: "Javascript",
+        link: "https://cleontime.cleonhrtest.com/",
+        open: "CleonTime is a specialized, web-based claims processing portal developed by Whyte Cleon Limited as part of their comprehensive CleonHR suite."
       },
       "Distributed Logging and Monitoring System": {
         desc:
@@ -81,27 +81,7 @@ class Projects extends React.Component {
         link:
           ""
       },
-      "Odin Bot": {
-        desc:
-          "A Telegram bot that helps you excel on your daily tasks through Node NLP.",
-        techStack: "Javascript, Node.js, Natural NLP, Telegram API",
-        link: "",
-        open: ""
-      },
-      "Game Centre": {
-        desc:
-          "An Android app consisting of three board games, including multiplayer, autosave, user authentication, etc.",
-        techStack: "Java, Android Studio",
-        link: "",
-        open: ""
-      },
-      "Minimax Stonehenge": {
-        desc:
-          "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
-        techStack: "Python",
-        link: "",
-        open: ""
-      }
+      
     };
 
     return (

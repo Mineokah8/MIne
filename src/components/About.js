@@ -21,8 +21,8 @@ class About extends React.Component {
       <p>
         I am currently a <b>Software Development Engineer</b> at
         <a href="https://slowgatemedia.com/"> Slowgate Media</a>, working in the Alpha team
-        sector under the software development team. At the same time, I am undertaking a
-        Full-time <b> Bachelor of Science</b> in <b>Computer Science </b>at{" "}
+        sector under the software development team. At the same time, I am  a
+        graduate of <b> Bachelor of Science</b> in <b>Computer Science </b>at{" "}
         <a href="https://biu.edu.ng/">Benson Idahosa University</a>.
       </p>
     );
